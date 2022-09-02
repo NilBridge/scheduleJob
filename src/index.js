@@ -20,7 +20,7 @@ function run(name,jobs){
                 case 'cmd':
                     mc.runcmd(item.cmd);
                     break;
-                case 'tellraw':
+                case 'bc':
                     mc.broadcast(item.text);
                     break;
                 default:

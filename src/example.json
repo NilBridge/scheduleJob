@@ -1,12 +1,21 @@
 {
     "setup": {
-        "use":"BackupHelper",  //需要的插件，可以不写此项
-        "actions":[
+        "use": "BackupHelper", //需要的插件，可以不写此项
+        "actions": [
             {
-                "type":"cmd",  // 模式为，执行命令
-                "cmd":"backup"  // 执行的命令
+                "type": "cmd", // 模式为，执行命令
+                "cmd": "backup" // 执行的命令
             }
         ],
-        "cron":"30 1 1 * * *"  //cron内容
+        "cron": "30 1 1 * * *" //cron内容
+    },
+    "tellraw": {
+        "actions": [
+            {
+                "type": "cmd",
+                "cmd": "say nmsl"
+            }
+        ],
+        "cron": "30 * * * * *"
     }
 }
