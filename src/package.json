@@ -1,0 +1,28 @@
+{
+  "name": "schedulejob",
+  "version": "1.0.0",
+  "description": "对象文本语法定时器",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilbridge/schedulejob.git"
+  },
+  "keywords": [
+    "schedule",
+    "bds"
+  ],
+  "author": "Sbaoor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nilbridge/schedulejob/issues"
+  },
+  "homepage": "https://github.com/nilbridge/schedulejob#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "json5": "^2.2.1",
+    "node-schedule": "^2.1.0"
+  }
+}
